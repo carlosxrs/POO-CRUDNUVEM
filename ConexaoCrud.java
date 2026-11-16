@@ -11,7 +11,6 @@ import java.sql.SQLException;
  */
 public class ConexaoCrud {
 
-    // PREENCHIDO COM OS DADOS DO SEU RAILWAY:
     private static final String HOST = "shortline.proxy.rlwy.net";
     private static final String PORT = "38537";
     private static final String DATABASE = "railway";
@@ -34,15 +33,5 @@ public class ConexaoCrud {
     public static void main(String[] args) {
         // Testa a conexão ao rodar a classe
         conectar();
-    }
-}
-
-    public static void main(String[] args) {
-        // Testa a conexão e as operações básicas
-        conectar();
-        
-        // Exemplo de uso (descomente se já tiver a tabela 'usuarios' criada no Railway):
-        // inserir("Carlos Eduardo", "carlos@email.com");
-        // listar();
     }
 }
